@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <style>
+      body {
+        font-family:sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Google</p>
+    <input id="srchinput">
+    <button onclick="search()">Search</button>
+    <script>
+      function search() {
+        window.open("https://www.google.com/search?q="+document.getElementById("srchinput").value)
+      }
+  </body>
+</html>
